@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PhotoShack</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">PhotoShak</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">3 Column Layout</a></li>
+            <li><a href="index2.html">4 Column Layout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-2">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080590/b92228c6-62f0-11e5-84d9-87774817a7e7.jpg" class="img-thumbnail">
+                </div>
+
+                <div class="item">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080592/b948e3bc-62f0-11e5-8cdd-294a33295200.jpg" class="img-thumbnail">
+                </div>
+
+                <div class="item">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080595/b97d4ed6-62f0-11e5-86ac-f84326a862e5.jpg" class="img-thumbnail">
+                </div>
+
+                <div class="item">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080591/b93359f2-62f0-11e5-8ee9-b9c49757dba1.jpg" class="img-thumbnail">
+                </div>
+
+                <div class="item">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080593/b95a5b9c-62f0-11e5-8fcf-5269b35adbf9.jpg" class="img-thumbnail">
+                </div>
+
+                <div class="item">
+                  <img src="https://cloud.githubusercontent.com/assets/13671211/10080594/b96d0b20-62f0-11e5-8f2e-de2cd449821a.jpg" class="img-thumbnail">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All Photos</a></li>
+            <li role="presentation"><a href="#one" aria-controls="one" role="tab" data-toggle="tab">Category One</a></li>
+            <li role="presentation"><a href="#two" aria-controls="two" role="tab" data-toggle="tab">Category Two</a></li>
+          </ul><br><br>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            
+            <div role="tabpanel" class="tab-pane active" id="all">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080590/b92228c6-62f0-11e5-84d9-87774817a7e7.jpg" data-lightbox="gallery" data-title="Sample Image One"><img src="https://cloud.githubusercontent.com/assets/13671211/10080590/b92228c6-62f0-11e5-84d9-87774817a7e7.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image One</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080592/b948e3bc-62f0-11e5-8cdd-294a33295200.jpg" data-lightbox="gallery" data-title="Sample Image Two"><img src="https://cloud.githubusercontent.com/assets/13671211/10080592/b948e3bc-62f0-11e5-8cdd-294a33295200.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Two</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080595/b97d4ed6-62f0-11e5-86ac-f84326a862e5.jpg" data-lightbox="gallery" data-title="Sample Image Three"><img src="https://cloud.githubusercontent.com/assets/13671211/10080595/b97d4ed6-62f0-11e5-86ac-f84326a862e5.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Three</div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080591/b93359f2-62f0-11e5-8ee9-b9c49757dba1.jpg" data-lightbox="gallery" data-title="Sample Image Four"><img src="https://cloud.githubusercontent.com/assets/13671211/10080591/b93359f2-62f0-11e5-8ee9-b9c49757dba1.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Four</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080593/b95a5b9c-62f0-11e5-8fcf-5269b35adbf9.jpg" data-lightbox="gallery" data-title="Sample Image Five"><img src="https://cloud.githubusercontent.com/assets/13671211/10080593/b95a5b9c-62f0-11e5-8fcf-5269b35adbf9.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Five</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080594/b96d0b20-62f0-11e5-8f2e-de2cd449821a.jpg" data-lightbox="gallery" data-title="Sample Image Six"><img src="https://cloud.githubusercontent.com/assets/13671211/10080594/b96d0b20-62f0-11e5-8f2e-de2cd449821a.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Six</div>
+                </div>
+              </div>
+            </div><!--end of all photos-->
+
+            <div role="tabpanel" class="tab-pane" id="one">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080590/b92228c6-62f0-11e5-84d9-87774817a7e7.jpg" data-lightbox="galleryOne" data-title="Sample Image One"><img src="https://cloud.githubusercontent.com/assets/13671211/10080590/b92228c6-62f0-11e5-84d9-87774817a7e7.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image One</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080592/b948e3bc-62f0-11e5-8cdd-294a33295200.jpg" data-lightbox="galleryOne" data-title="Sample Image Two"><img src="https://cloud.githubusercontent.com/assets/13671211/10080592/b948e3bc-62f0-11e5-8cdd-294a33295200.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Two</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080595/b97d4ed6-62f0-11e5-86ac-f84326a862e5.jpg" data-lightbox="galleryOne" data-title="Sample Image Three"><img src="https://cloud.githubusercontent.com/assets/13671211/10080595/b97d4ed6-62f0-11e5-86ac-f84326a862e5.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Three</div>
+                </div>
+              </div>
+            </div><!--end of category one-->
+
+            <div role="tabpanel" class="tab-pane" id="two">
+              <div class="row">
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080591/b93359f2-62f0-11e5-8ee9-b9c49757dba1.jpg" data-lightbox="galleryTwo" data-title="Sample Image Four"><img src="https://cloud.githubusercontent.com/assets/13671211/10080591/b93359f2-62f0-11e5-8ee9-b9c49757dba1.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Four</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080593/b95a5b9c-62f0-11e5-8fcf-5269b35adbf9.jpg" data-lightbox="galleryTwo" data-title="Sample Image Five"><img src="https://cloud.githubusercontent.com/assets/13671211/10080593/b95a5b9c-62f0-11e5-8fcf-5269b35adbf9.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Five</div>
+                </div>
+                <div class="col-md-4">
+                  <a href="https://cloud.githubusercontent.com/assets/13671211/10080594/b96d0b20-62f0-11e5-8f2e-de2cd449821a.jpg" data-lightbox="galleryTwo" data-title="Sample Image Six"><img src="https://cloud.githubusercontent.com/assets/13671211/10080594/b96d0b20-62f0-11e5-8f2e-de2cd449821a.jpg" class="img-thumbnail"></a>
+                  <div class="title">Sample Image Six</div>
+                </div>
+              </div>
+            </div><!--end of category two-->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/lightbox.js"></script>
+  </body>
+</html>
