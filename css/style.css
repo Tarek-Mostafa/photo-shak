@@ -13,3 +13,14 @@ section{
 	font-weight: bold;
 	font-size: 16px;
 }
+
+
+@media screen and (max-width: 370px) {
+	ul.nav.nav-tabs li{
+		font-size: 12px;
+	}
+
+	ul.nav.nav-tabs a{
+		padding: 8px 6px;
+	}
+}
