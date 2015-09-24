@@ -24,3 +24,9 @@ section{
 		padding: 8px 6px;
 	}
 }
+
+@media screen and (max-width: 767px){
+	.navbar.container.navbar-collpase ul:last-child{
+		display: none;
+	}
+}
